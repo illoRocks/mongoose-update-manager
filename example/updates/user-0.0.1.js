@@ -5,7 +5,7 @@ new User({
   password: 'mypassword'
 }).save(function (err) {
   if (err) {
-    console.log(err)
+    console.error(err)
   } else {
     console.log('Post has been updated')
   }
