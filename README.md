@@ -23,7 +23,7 @@ mongoose.connect('mongodb://localhost/mongoose-update-manager', {
 updates(path.join(__dirname, 'updates'))
 ```
 
-create a new file `example-0.0.1.js/example-0.0.1.js`
+create a new file `updates/example-0.0.1.js`
 
 ```js
 // example-0.0.1.js
