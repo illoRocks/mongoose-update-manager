@@ -8,3 +8,5 @@ mongoose.connect('mongodb://localhost/mongoose-update-manager', {
 })
 
 updates(path.join(__dirname, 'updates'))
+
+console.log('finish');

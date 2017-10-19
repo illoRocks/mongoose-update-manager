@@ -4,6 +4,11 @@ var fs = require('fs')
 module.exports = function (path) {
   fs.readdirSync(path).forEach(filename => {
 
+    var isDir = fs.lstatSync(path + '/' + filename).isDirectory()
+    if (isDir) {
+      return
+    }
+
     var query = {
       key: filename
     }
