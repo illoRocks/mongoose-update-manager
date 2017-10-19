@@ -34,4 +34,9 @@ new User({
   password: 'mypassword'
 }).save()
 ```
-example-0.0.1.js execude only one time.
+`example-0.0.1.js` execude only one time.
+a new update could have the name `example-0.0.2.js` or `other-example-0.0.1.js`
+
+
+
+[https://github.com/illoRocks/mongoose-update-manager](https://github.com/illoRocks/mongoose-update-manager)
