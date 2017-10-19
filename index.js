@@ -3,7 +3,6 @@ var fs = require('fs')
 
 module.exports = function (path) {
   fs.readdirSync(path).forEach(filename => {
-    console.log(path + filename)
 
     var query = {
       key: filename

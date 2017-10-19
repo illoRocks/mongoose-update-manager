@@ -1,7 +1,7 @@
 {
   "name": "mongoose-update-manager",
-  "version": "1.0.0",
-  "description": "update database once with mongoose",
+  "version": "1.0.2",
+  "description": "excecute scripts once in a specific folder and log the updates",
   "main": "index.js",
   "repository": {
     "type": "git",
